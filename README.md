@@ -16,7 +16,7 @@ Activates on pushes to the main branch.
 Runs on an Ubuntu 22.04 environment.
 Checks out the repo, including submodules for Hugo themes.
 Sets up Hugo, compiles static files with minification and drafts included, and deploys to the gh-pages branch.
-Optionally, integrates a custom domain by uncommenting and setting the cname in the workflow file.
+Integrates a custom domain, ecospend.click, by uncommenting and setting the cname in the workflow file.
 A detailed explanation of each step is provided in the workflow file comments, guiding through setup, build, and deployment phases.
 
 After configuring and verifying GitHub Actions, the site was successfully deployed and further validated by updating a link to encourage user issues, demonstrating the efficacy of the CI/CD pipeline.
